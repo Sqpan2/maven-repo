@@ -4,7 +4,7 @@
 
 	<groupId>com.panshiqi.study</groupId>
 	<artifactId>study.maventest</artifactId>
-	<version>1.0.1</version>
+	<version>1.0.2</version>
 	<packaging>jar</packaging>
 
 	<name>study.maventest</name>
