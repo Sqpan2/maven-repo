@@ -52,6 +52,7 @@
 					<noJekyll>true</noJekyll>
 					<outputDirectory>${project.build.directory}/mvn-repo/${project.artifactId}-${project.version}</outputDirectory>
 					<branch>refs/heads/master</branch>
+					<path>${project.artifactId}-${project.version}</path>
 					<includes>
 						<include>**/*</include>
 					</includes>
