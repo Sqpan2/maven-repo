@@ -4,7 +4,7 @@
 
 	<groupId>com.panshiqi.study</groupId>
 	<artifactId>study.maventest</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>1.0.0</version>
 	<packaging>jar</packaging>
 
 	<name>study.maventest</name>
@@ -40,7 +40,7 @@
 				<artifactId>maven-deploy-plugin</artifactId>
 				<version>2.8.1</version>
 				<configuration>
-					<altDeploymentRepository>internal.repo::default::file://${project.build.directory}/mvn-repo</altDeploymentRepository>
+					<altDeploymentRepository>internal.repo::default::file://${project.build.directory}/mvn-repo/${project.artifactId}-${project.version}</altDeploymentRepository>
 				</configuration>
 			</plugin>
 			<plugin>
