@@ -52,13 +52,12 @@
 					<noJekyll>true</noJekyll>
 					<outputDirectory>${project.build.directory}/mvn-repo</outputDirectory>
 					<branch>refs/heads/master</branch>
-					<!-- <path>${project.artifactId}-${project.version}</path>  -->
 					<includes>
 						<include>**/*</include>
 					</includes>
 					<repositoryName>maven-repo</repositoryName>
 					<repositoryOwner>Sqpan2</repositoryOwner>
-					<!-- <merge>true</merge>  -->
+					<merge>true</merge> <!-- default false, will remove all files when deploy -->
 				</configuration>
 				<executions>
 					<execution>
