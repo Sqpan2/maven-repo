@@ -4,7 +4,7 @@
 
 	<groupId>com.panshiqi.study</groupId>
 	<artifactId>study.maventest</artifactId>
-	<version>1.0.1</version>
+	<version>1.0.2</version>
 	<packaging>jar</packaging>
 
 	<name>study.maventest</name>
@@ -50,7 +50,7 @@
 				<configuration>
 					<message>Maven artifacts for ${project.version}</message>
 					<noJekyll>true</noJekyll>
-					<outputDirectory>${project.build.directory}/mvn-repo</outputDirectory>
+					<outputDirectory>${project.build.directory}/mvn-repo/${project.artifactId}-${project.version}</outputDirectory>
 					<branch>refs/heads/master</branch>
 					<includes>
 						<include>**/*</include>
