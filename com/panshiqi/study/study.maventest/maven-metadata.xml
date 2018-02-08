@@ -3,9 +3,10 @@
   <groupId>com.panshiqi.study</groupId>
   <artifactId>study.maventest</artifactId>
   <versioning>
+    <release>1.0.0</release>
     <versions>
-      <version>0.0.2-SNAPSHOT</version>
+      <version>1.0.0</version>
     </versions>
-    <lastUpdated>20180208081058</lastUpdated>
+    <lastUpdated>20180208081454</lastUpdated>
   </versioning>
 </metadata>
