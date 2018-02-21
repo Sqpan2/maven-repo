@@ -4,7 +4,7 @@
 
 	<groupId>com.panshiqi.study</groupId>
 	<artifactId>study.maventest</artifactId>
-	<version>1.0.0</version>
+	<version>1.0.0</version> <!-- 0.0.1-SNAPSHOT -->
 	<packaging>jar</packaging>
 
 	<name>study.maventest</name>
@@ -23,7 +23,7 @@
 			<scope>test</scope>
 		</dependency>
 	</dependencies>
-
+	
 	<build>
 		<plugins>
 			<plugin>
@@ -57,7 +57,6 @@
 					</includes>
 					<repositoryName>maven-repo</repositoryName>
 					<repositoryOwner>Sqpan2</repositoryOwner>
-					<merge>true</merge> <!-- default false, will remove all files when deploy -->
 				</configuration>
 				<executions>
 					<execution>
@@ -70,5 +69,4 @@
 			</plugin>
 		</plugins>
 	</build>
-
 </project>
