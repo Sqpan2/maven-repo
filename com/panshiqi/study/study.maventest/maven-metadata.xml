@@ -4,8 +4,8 @@
   <artifactId>study.maventest</artifactId>
   <versioning>
     <versions>
-      <version>0.0.2-SNAPSHOT</version>
+      <version>0.0.1-SNAPSHOT</version>
     </versions>
-    <lastUpdated>20180325154910</lastUpdated>
+    <lastUpdated>20190303122343</lastUpdated>
   </versioning>
 </metadata>
